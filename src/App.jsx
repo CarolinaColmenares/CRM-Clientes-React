@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div>
-      <h1>CRM Clientes</h1>
+      <h1 className='text-6xl font-extrabold'>CRM Clientes</h1>
     </div>
   )
 }

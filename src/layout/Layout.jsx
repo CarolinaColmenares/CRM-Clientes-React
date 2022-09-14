@@ -1,6 +1,12 @@
-import { Outlet, Link } from 'react-router-dom'
+import { Outlet, Link, useLocation } from 'react-router-dom'
 
 const Layout = () => {
+
+  const location = useLocation()
+
+  console.log (location)
+  const urlActual = location.pathname
+
   return (
     <div className='md:flex md:min-h-screen'>
 
@@ -8,11 +14,13 @@ const Layout = () => {
         <h2 className='text-4xl font-black text-center text-white'>CRM - Clientes</h2>
         <nav className='mt-10'>
           <Link 
-          className='text-white text-2xl block mt-2 hover:text-blue-300'
+          className={`${urlActual ==='/clientes' ? 'text-blue-300' : 'text-white'} 
+          text-2xl block mt-2 hover:text-blue-300`}
           to="/clientes">Clientes</Link>
           <Link 
-          className='text-white text-2xl block mt-2 hover:text-blue-300'
-          to="/clientes/nuevo">Nuevo Cliente</Link>
+         className={`${urlActual ==='/clientes/nuevo' ? 'text-blue-300' : 'text-white'} 
+         text-2xl block mt-2 hover:text-blue-300`}
+         to="/clientes/nuevo">Nuevo Cliente</Link>
 
         </nav>
       </div>

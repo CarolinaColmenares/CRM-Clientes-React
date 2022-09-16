@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import * as Yup from 'yup'
 import Alerta from './Alerta'
 
-const Formulario = () => {
+const Formulario = ({cliente}) => {
 
     const navigate = useNavigate()
 
@@ -50,7 +50,7 @@ const Formulario = () => {
 
             <Formik
                 initialValues={{
-                    nombre: '',
+                    nombre: cliente.nombre,
                     empresa: '',
                     email: '',
                     telefono: '',

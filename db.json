@@ -9,36 +9,12 @@
       "id": 1
     },
     {
-      "nombre": "carol",
-      "empresa": "ccc",
-      "email": "carolcol12345@gmail.com",
-      "telefono": "5555",
-      "notas": "aaa",
-      "id": 2
-    },
-    {
-      "nombre": "carol",
-      "empresa": "ccc",
-      "email": "carolcol12345@gmail.com",
-      "telefono": "5555",
-      "notas": "aaa",
-      "id": 3
-    },
-    {
       "nombre": "Paulina",
       "empresa": "Paulina Construcciones",
       "email": "prueba3@gmail.com",
       "telefono": "6666",
       "notas": "",
       "id": 4
-    },
-    {
-      "nombre": "carol222",
-      "empresa": "Empresa 5",
-      "email": "prueba3@gmail.com",
-      "telefono": "5555555555555",
-      "notas": "",
-      "id": 5
     },
     {
       "nombre": "Gina Editado",

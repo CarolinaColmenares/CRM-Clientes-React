@@ -4,7 +4,7 @@
       "nombre": "carol",
       "empresa": "ccc",
       "email": "carolcol12345@gmail.com",
-      "telefono": "5555",
+      "telefono": "111111111111111111",
       "notas": "aaa",
       "id": 1
     },
@@ -39,6 +39,14 @@
       "telefono": "5555555555555",
       "notas": "",
       "id": 5
+    },
+    {
+      "nombre": "Gina Editado",
+      "empresa": "Gina",
+      "email": "prueba@gmail.com",
+      "telefono": "66666666666666",
+      "notas": "Ejemplo",
+      "id": 6
     }
   ]
 }
